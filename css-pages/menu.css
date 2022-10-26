@@ -1,0 +1,11 @@
+.head {
+  background: url(./../assets/Spicy-brown-sugar-glazed-fried-chicken-strips-7.png);
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+}
+
+.row > .mit {
+  font-family: "Abril Fatface", cursive;
+  font-size: 15vw;
+  color: #410e00;
+}
