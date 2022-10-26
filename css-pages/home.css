@@ -49,10 +49,14 @@ font-family: 'Roboto Condensed', sans-serif; */
   color: #e1be50;
   text-decoration: none;
 }
-.blurb-img > img {
-  width: 47vw;
+
+.dsk > img {
+  width: 50vw;
 }
 
+.mob {
+  display: none;
+}
 .card {
   padding: 5vw;
   background-color: #384258;
@@ -91,14 +95,18 @@ font-family: 'Roboto Condensed', sans-serif; */
     display: none;
   }
 
-  .card {
-    width: 90%;
-  }
   .blurb {
     flex-direction: column-reverse;
     align-items: flex-start;
   }
   .blurb-img > img {
     width: 75vw;
+  }
+  .dsk {
+    display: none;
+  }
+
+  .mob {
+    display: contents;
   }
 }
