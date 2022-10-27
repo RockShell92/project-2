@@ -1,3 +1,11 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Roboto Condensed', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+}
 .head {
   background: url(./../assets/Spicy-brown-sugar-glazed-fried-chicken-strips-7.png);
   background-size: 100vw 100%;
@@ -8,4 +16,32 @@
   font-family: "Abril Fatface", cursive;
   font-size: 15vw;
   color: #410e00;
+}
+.card {
+  background-color: #410e00;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: "Dancing Script", cursive;
+  font-size: 4vw;
+}
+.heading {
+  font-family: "Roboto Condensed", sans-serif;
+  color: whitesmoke;
+  font-size: 2.25vw;
+}
+.sub {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(205, 205, 205);
+  font-size: 1vw;
+}
+
+.no {
+  color: #410e00;
+}
+@media screen and (max-width: 600px) {
+  .arrow > a > img {
+    display: none;
+  }
 }
