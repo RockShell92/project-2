@@ -54,9 +54,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   width: 50vw;
 }
 
-.mob {
-  display: none;
-}
 .card {
   background-color: #384258;
   border: none;
@@ -83,9 +80,6 @@ font-family: 'Roboto Condensed', sans-serif; */
 }
 
 @media screen and (max-width: 600px) {
-  .arrow {
-    display: none;
-  }
   .blurb {
     flex-direction: column-reverse;
     align-items: flex-start;
@@ -96,7 +90,7 @@ font-family: 'Roboto Condensed', sans-serif; */
   .dsk {
     display: none;
   }
-  .mob {
-    display: contents;
+  .mob > img {
+    width: 100vw;
   }
 }
