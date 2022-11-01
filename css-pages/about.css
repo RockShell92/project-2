@@ -2,6 +2,19 @@
 font-family: 'Dancing Script', cursive;
 font-family: 'Roboto Condensed', sans-serif; */
 
+@media only screen and (max-width: 400px) {
+  .hours {
+    text-align: centers;
+  }
+  .text {
+    font-size: 5in;
+  }
+  .couple > .img {
+    display: block;
+    width: 100%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,11 +38,33 @@ font-family: 'Roboto Condensed', sans-serif; */
   padding-top: 13vw;
   font-weight: 700;
 }
+
+.row > .abt {
+  font-family: "abril Fatface", cursive;
+  font-size: 15vw;
+  color: #410e00;
+  text-align: center;
+}
+
+.row > .mit {
+  font-family: "abril fatface", cursive;
+  color: #410e00;
+  font-size: 5vw;
+  padding-bottom: -1vw;
+}
+
+.row > .res {
+  font-family: "Roboto condensed", sans-serif;
+  color: #384258;
+  font-weight: 700;
+  font-size: 3vw;
+}
 .arrow {
   justify-content: center;
 }
 .arrow > a > img {
   width: 20vw;
+  padding: 1vw;
 }
 
 .logo {
@@ -71,4 +106,9 @@ font-family: 'Roboto Condensed', sans-serif; */
 .contact {
   text-align: center;
   padding-top: 10%;
+}
+
+.location {
+  padding-top: 10%;
+  text-align: center;
 }
