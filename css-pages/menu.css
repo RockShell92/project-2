@@ -16,22 +16,19 @@ font-family: 'Roboto Condensed', sans-serif; */
   font-size: 5vw;
   color: #410e00;
   text-decoration: none;
+  flex-wrap: nowrap;
 }
 .nav-item {
   font-family: "Abril Fatface", cursive;
   font-size: 5vw;
   color: #410e00;
   text-decoration: none;
+  flex-wrap: nowrap;
 }
 
-#contents1 {
-  background-image: url(./../assets/crossword.png);
+.navbar {
+  background-color: none;
 }
-
-#contents2 {
-  display: none;
-}
-
 .row > .menu {
   font-family: "Abril Fatface", cursive;
   font-size: 15vw;
@@ -54,7 +51,13 @@ font-family: 'Roboto Condensed', sans-serif; */
 .arrow > a > img {
   padding: 1vw;
 }
+#contents1 {
+  background-image: url(./../assets/crossword.png);
+}
 
+#contents2 {
+  display: none;
+}
 .card {
   background-color: #410e00;
 }
