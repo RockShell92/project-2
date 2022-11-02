@@ -68,7 +68,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   align-items: center;
 }
 .blurb-txt {
-  padding: 1.75vw;
   font-family: "Roboto Condensed", sans-serif;
   color: #410e00;
   font-size: 2.5vw;
@@ -100,7 +99,6 @@ font-family: 'Roboto Condensed', sans-serif; */
 .footer {
   background-color: #384258;
   color: whitesmoke;
-  padding: 3vw;
 }
 .words > p {
   font-family: "Abril Fatface", cursive;
@@ -112,13 +110,31 @@ font-family: 'Roboto Condensed', sans-serif; */
   color: whitesmoke;
 }
 
-.active-nav-foot-item > a {
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-foot-item > a {
+  font-family: "Abril Fatface", cursive;
+  font-size: 5vw;
   color: whitesmoke;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+
+.arrow-bottom > a > img {
+  transform: rotate(180deg);
 }
 .arrow-bottom > a > img {
   transform: rotate(180deg);
   width: 15vw;
 }
+.arrow-bottom {
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media screen and (max-width: 600px) {
   .blurb {
     flex-direction: column-reverse;
@@ -126,6 +142,9 @@ font-family: 'Roboto Condensed', sans-serif; */
   }
   .blurb-img > img {
     width: 75vw;
+  }
+  .blurb-txt {
+    font-size: 5vw;
   }
   .dsk {
     display: none;
@@ -135,5 +154,8 @@ font-family: 'Roboto Condensed', sans-serif; */
   }
   .arrow {
     display: none;
+  }
+  .nav-foot-item > a {
+    padding: 1vw;
   }
 }
