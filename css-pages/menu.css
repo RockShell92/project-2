@@ -94,11 +94,9 @@ font-family: 'Roboto Condensed', sans-serif; */
   font-size: 1vw;
   text-indent: 3vw;
 }
-
 .no {
   color: #410e00;
 }
-
 .footer {
   background-color: #384258;
   color: whitesmoke;
@@ -107,12 +105,10 @@ font-family: 'Roboto Condensed', sans-serif; */
   font-family: "Abril Fatface", cursive;
   font-size: 3vw;
 }
-
 .nav-foot-item > a {
   font-size: 3vw;
   color: whitesmoke;
 }
-
 ul {
   list-style: none;
   display: flex;
@@ -125,7 +121,6 @@ ul {
   text-decoration: none;
   flex-wrap: nowrap;
 }
-
 .arrow-bottom > a > img {
   transform: rotate(180deg);
 }
