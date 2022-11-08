@@ -37,7 +37,49 @@
   </svg> -->
 
     <div id="head" class="head">
-      <div class="nav"></div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><div class="logo">
+              <div class="container">
+                <div class="row d-flex justify-content-md-start gap-0">
+                  <div class="col-12 mit-sm">Mitchell's</div>
+                  <div class="col-12 res-sm">R E S T A R U A N T</div>
+                </div>
+              </div>
+            </div></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <div class="logo">
         <div class="container text-center">
@@ -47,218 +89,247 @@
           </div>
         </div>
       </div>
-      <div class="arrow d-flex">
+      <div class="arrow d-md-flex justify-content-center d-sm-none">
         <a href="#contents"><img src="./assets/arrow.png" alt="arrow" /></a>
       </div>
     </div>
 
-    <div id="contents">
-      <div class="blurb d-flex">
-        <div class="blurb-img img">
-          <img src="./assets/home-building.png" alt="building-home" />
-        </div>
-        <div class="blurb-txt txt">
-          <p>
-            An upscale classical dining experience with a high standard for its
-            food quality. We ensure that guests receive the same high quality
-            experience with every meal. We were made famous for our hand breaded
-            lightly fried hen strippies and zesty tomato and vinegar relish, but
-            have a large menu with plenty of options for whatever mood you may
-            be in while visiting us. Click <a href="./menu.html">Here</a> to see
-            the menu.
-          </p>
+    <div id="contents" class="p-0">
+      <div class="container-fluid p-0">
+        <div class="blurb d-flex row">
+          <div class="blurb-img img col-md-6">
+            <div class="dsk d-sm-none d-md-block">
+              <img src="./assets/home-building.png" alt="building-home" />
+            </div>
+            <div class="mob d-md-none d-sm-block w-100">
+              <img src="./assets/home-building.jpg" alt="building-home" />
+            </div>
+          </div>
+          <div class="blurb-txt txt col-md-6 col-sm-12 p-sm-2">
+            <p>
+              An upscale classical dining experience with a high standard for
+              its food quality. We ensure that guests receive the same high
+              quality experience with every meal. We were made famous for our
+              hand breaded lightly fried hen strippies and zesty tomato and
+              vinegar relish, but have a large menu with plenty of options for
+              whatever mood you may be in while visiting us. Click
+              <a href="./menu.html">Here</a> to see the menu.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- start reviews -->
 
-      <div class="reviews top-r d-flex">
-        <div class="card">
-          <!-- review 1 -->
+      <div class="p-md-5 container">
+        <div class="first-line row justify-content-md-around">
+          <div class="card col-md-6 col-sm-12 p-5 mt-1 mb-1">
+            <!-- review 1 -->
 
-          <div class="d-flex stars">
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
+            <div class="d-flex stars">
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
 
-          <blockquote class="blockquote mb-0">
-            <p>
-              Amazing dining experience. They cooked my food in the kitchen then
-              brought it to me. Much more sanatary than cooking it tableside.
-            </p>
-            <footer class="blockquote-footer">
-              Bethany Cobb <cite title="Source Title">loyal customer</cite>
-            </footer>
-          </blockquote>
-        </div>
-
-        <!-- review 2 -->
-
-        <div class="card">
-          <div class="d-flex stars">
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card-body">
             <blockquote class="blockquote mb-0">
               <p>
-                Their app Wander bread is to die for. It's worth splurging for
-                their house cheese.
+                Amazing dining experience. They cooked my food in the kitchen
+                then brought it to me. Much more sanatary than cooking it
+                tableside.
               </p>
               <footer class="blockquote-footer">
-                Roboto 2.0
-                <cite title="Source Title"
-                  >definitely a real person not a bot</cite
-                >
+                Bethany Cobb <cite title="Source Title">loyal customer</cite>
               </footer>
             </blockquote>
+          </div>
+
+          <!-- review 2 -->
+
+          <div class="card col-md-6 col-sm-12 p-5 mt-1 mb-1">
+            <div class="d-flex stars">
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  Their app Wander bread is to die for. It's worth splurging for
+                  their house cheese.
+                </p>
+                <footer class="blockquote-footer">
+                  Roboto 2.0
+                  <cite title="Source Title"
+                    >definitely a real person not a bot</cite
+                  >
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="second-line row justify-content-md-around">
+          <div class="card col-md-6 col-sm-12 p-5 mt-1 mb-1">
+            <!-- review 3 -->
+
+            <div class="d-flex stars">
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  They were legit just chicken strips. They were good but they
+                  were chicken strips.
+                </p>
+                <footer class="blockquote-footer">
+                  Hattie B.
+                  <cite title="Source Title">yes that one</cite>
+                </footer>
+              </blockquote>
+            </div>
+          </div>
+
+          <!-- review 4 -->
+          <div class="card col-md-6 col-sm-12 p-5 mt-1 mb-1">
+            <div class="d-flex stars">
+              <img
+                src="./assets/star-filled.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <img
+                src="./assets/star-hollow.png"
+                class="card-img-top"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <blockquote class="blockquote mb-0">
+                <p>
+                  All talk no walk. Don't reccomend. I say, that's what I've
+                  been telling you, boy!
+                </p>
+                <footer class="blockquote-footer">
+                  Foghorn Leghorn
+                  <cite title="Source Title">looney toons</cite>
+                </footer>
+              </blockquote>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="reviews bottom-r d-flex">
-        <div class="card">
-          <!-- review 3 -->
-
-          <div class="d-flex stars">
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card-body">
-            <blockquote class="blockquote mb-0">
-              <p>
-                They were legit just chicken strips. They were good but they
-                were chicken strips.
-              </p>
-              <footer class="blockquote-footer">
-                Hattie B.
-                <cite title="Source Title">yes that one</cite>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
-
-        <!-- review 4 -->
-
-        <div class="card">
-          <div class="d-flex stars">
-            <img
-              src="./assets/star-filled.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-            <img
-              src="./assets/star-hollow.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card-body">
-            <blockquote class="blockquote mb-0">
-              <p>
-                All talk no walk. Don't reccomend. I say, that's what I've been
-                telling you, boy!
-              </p>
-              <footer class="blockquote-footer">
-                Foghorn Leghorn
-                <cite title="Source Title">looney toons</cite>
-              </footer>
-            </blockquote>
-          </div>
-        </div>
+      <div class="arrow-bottom d-md-flex justify-content-end d-sm-none">
+        <a href="#head"><img src="./assets/arrow.png" alt="arrow" /></a>
       </div>
     </div>
 
-    <div class="footer d-flex center">
-      <div class="words d-flex">
-        <p>HOME</p>
-        <p>ABOUT</p>
-        <p>MENU</p>
-      </div>
+    <div class="footer">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+              <li class="nav-item nav-foot-item">
+                <a
+                  class="nav-link active-nav-foot-item"
+                  aria-current="page"
+                  href="./index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item nav-foot-item">
+                <a class="nav-link" href="./about.html">ABOUT</a>
+              </li>
+              <li class="nav-item nav-foot-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
 
     <!-- ALWAYS STAY AT BOTTOM -->
