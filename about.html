@@ -1,22 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<div lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Mitchell's Restruant</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./css-pages/about.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dancing+Script:wght@600&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css-pages/bootstrap.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><div class="logo">
+            <div class="container">
+              <div class="row d-flex justify-content-md-start gap-0">
+                <div class="col-12 mit">Mitchell's</div>
+                <div class="col-12 res">R E S T A R U A N T</div>
+              </div>
+            </div>
+          </div></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./about.html"
+                >ABOUT</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">MENU</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container text-center">
+      <div class="row d-flex">
+        <div
+          class="col-12 menu p-md-1 p-sm-5 justify-content-md-center align-items-md-center"
+        >
+          ABOUT
+        </div>
+      </div>
+    </div>
+    <div class="arrow justify-content-center p-md-1 d-md-flex d-sm-none">
+      <a href="#contents1"><img src="./assets/arrow.png" alt="arrow" /></a>
+    </div>
+
+    <div class="d-flex">
+      <div class="text">
+        <p>
+          Mitchell's opened its doors in the winter of 1989 in Cape Coral,
+          Florida. Founded by Rosemary and Walter Jenkins, two highschool
+          sweethearts bonded by their love of upscale food. Named after their
+          son, The quaint restaurant moved to Nashville after the devastating
+          hurricane Charley in 2004. Made famous for their hand breaded lightly
+          fried hen strippies and zesty tomato and vinegar relish.
+        </p>
+      </div>
+
+      <div class="couple">
+        <img src="assets/rose-and-walter.jpeg" />
+      </div>
+    </div>
+    <div class="texttwo">
+      <p>A photo of Rosemary Jenkins and Walter Jenkins taken in 1991.</p>
+    </div>
+
+    <div class="d-md-flex d-sm-block">
+      <div class="hbuilding">
+        <img src="assets/home-building.png" />
+      </div>
+
+      <div class="hours">
+        <h1>Dine-In Hours:</h1>
+
+        <p>M-FRI: 2PM-10PM SAT-SUN: 12PM-11PM</p>
+      </div>
+    </div>
+
+    <div class="">
+      <p>A photo of Mitchell's Restaurant Home Building taken in 2001</p>
+      <div class="contact">
+        <h1>Contact Options:</h1>
+        <p>Call us: 239.111.554</p>
+        <p>Email: Mitchells.support@gmail.com</p>
+      </div>
+    </div>
+    <div class="location">
+      <p>Come visit us at 1509 HANGRY AVENUE N NASHVILLE, TN 35278</p>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
   </body>
-</html>
+</div>

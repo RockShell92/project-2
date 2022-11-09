@@ -37,44 +37,94 @@
   </svg> -->
 
     <div id="head" class="head">
-      <div class="nav"></div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><div class="logo">
+              <div class="container">
+                <div class="row d-flex justify-content-md-start gap-0">
+                  <div class="col-12 mit-sm">Mitchell's</div>
+                  <div class="col-12 res-sm">R E S T A R U A N T</div>
+                </div>
+              </div>
+            </div></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item active">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >HOME</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./menu.html">MENU</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
       <div class="logo">
         <div class="container text-center">
-          <div class="row d-flex">
-            <div class="col-12 mit">Mitchell's</div>
-            <div class="col-12 res">R E S T A R U A N T</div>
+          <div class="row d-flex justify-content-center align-contentw-center">
+            <div class="col-12 mit head-words">Mitchell's</div>
+            <div class="col-12 res head-words">R E S T A R U A N T</div>
           </div>
         </div>
       </div>
-      <div class="arrow d-flex">
+      <div class="arrow d-md-flex justify-content-center d-sm-none">
         <a href="#contents"><img src="./assets/arrow.png" alt="arrow" /></a>
       </div>
     </div>
 
-    <div id="contents">
-      <div class="blurb d-flex">
-        <div class="blurb-img img">
-          <img src="./assets/home-building.png" alt="building-home" />
-        </div>
-        <div class="blurb-txt txt">
-          <p>
-            An upscale classical dining experience with a high standard for its
-            food quality. We ensure that guests receive the same high quality
-            experience with every meal. We were made famous for our hand breaded
-            lightly fried hen strippies and zesty tomato and vinegar relish, but
-            have a large menu with plenty of options for whatever mood you may
-            be in while visiting us. Click <a href="./menu.html">Here</a> to see
-            the menu.
-          </p>
+    <div id="contents" class="p-0">
+      <div class="container-fluid p-0">
+        <div class="blurb d-flex row">
+          <div class="blurb-img img col-md-5">
+            <div class="dsk d-sm-none d-md-block">
+              <img src="./assets/home-building.png" alt="building-home" />
+            </div>
+            <div class="mob d-md-none d-sm-block w-100">
+              <img src="./assets/home-building.jpg" alt="building-home" />
+            </div>
+          </div>
+          <div class="col"></div>
+          <div class="blurb-txt txt col-md-5 col-sm-11 mx-2">
+            <p>
+              An upscale classical dining experience with a high standard for
+              its food quality. We ensure that guests receive the same high
+              quality experience with every meal. We were made famous for our
+              hand breaded lightly fried hen strippies and zesty tomato and
+              vinegar relish, but have a large menu with plenty of options for
+              whatever mood you may be in while visiting us. Click
+              <a href="./menu.html">Here</a> to see the menu.
+            </p>
+          </div>
         </div>
       </div>
 
       <!-- start reviews -->
 
-      <div class="reviews d-flex">
-        <div class="first-line">
-          <div class="card">
+      <div class="p-md-5 container">
+        <div class="first-line row justify-content-evenly">
+          <div class="card col-md-5 col-sm-12 p-5 mt-1 mb-1">
             <!-- review 1 -->
 
             <div class="d-flex stars">
@@ -116,10 +166,10 @@
               </footer>
             </blockquote>
           </div>
-
+          <div class="col"></div>
           <!-- review 2 -->
 
-          <div class="card">
+          <div class="card col-md-5 col-sm-12 p-5 mt-1 mb-1">
             <div class="d-flex stars">
               <img
                 src="./assets/star-filled.png"
@@ -163,8 +213,9 @@
             </div>
           </div>
         </div>
-        <div class="second-line">
-          <div class="card">
+
+        <div class="second-line row justify-content-md-around">
+          <div class="card col-md-5 col-sm-12 p-5 mt-1 mb-1">
             <!-- review 3 -->
 
             <div class="d-flex stars">
@@ -207,10 +258,9 @@
               </blockquote>
             </div>
           </div>
-
+          <div class="col"></div>
           <!-- review 4 -->
-
-          <div class="card">
+          <div class="card col-md-5 col-sm-12 p-5 mt-1 mb-1">
             <div class="d-flex stars">
               <img
                 src="./assets/star-filled.png"
@@ -253,13 +303,23 @@
           </div>
         </div>
       </div>
+      <div class="arrow-bottom d-md-flex justify-content-end d-sm-none">
+        <a href="#head"><img src="./assets/arrow.png" alt="arrow" /></a>
+      </div>
     </div>
-
-    <div class="footer d-flex">
-      <div class="words d-flex">
-        <p>HOME</p>
-        <p>ABOUT</p>
-        <p>MENU</p>
+    <div class="footer">
+      <div class="container-fluid d-flex">
+        <ul class="mx-auto d-flex">
+          <li class="nav-foot-item px-md-5 px-sm-4">
+            <a class="nav-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-foot-item px-md-5 px-sm-4">
+            <a class="nav-link" href="./about.html">ABOUT</a>
+          </li>
+          <li class="nav-foot-item px-md-5 px-sm-4">
+            <a class="nav-link" href="./menu.html">MENU</a>
+          </li>
+        </ul>
       </div>
     </div>
 
