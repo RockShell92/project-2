@@ -28,6 +28,23 @@ font-family: 'Roboto Condensed', sans-serif; */
 .active > a {
   color: #410e00;
 }
+
+.nav-item > a {
+  font-family: "Abril Fatface", cursive;
+  font-size: 5vw;
+  color: #384258e3;
+  text-decoration: none;
+}
+
+.nav-item {
+  font-family: "Abril Fatface", cursive;
+  font-size: 5vw;
+  color: #410e00;
+  text-decoration: none;
+}
+.active > a {
+  color: #410e00;
+}
 .row > .mit {
   font-family: "Abril Fatface", cursive;
   font-size: 15vw;
@@ -41,6 +58,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
   font-weight: 700;
 }
+
 .row > .mit-sm {
   font-family: "Abril Fatface", cursive;
   color: #410e00;
@@ -53,6 +71,7 @@ font-family: 'Roboto Condensed', sans-serif; */
   font-weight: 700;
   font-size: 3vw;
 }
+
 .arrow > a > img {
   width: 20vw;
 }
@@ -97,10 +116,12 @@ font-family: 'Roboto Condensed', sans-serif; */
 .footer {
   background-color: #384258;
   color: whitesmoke;
+  padding: 3vw;
 }
 .words > p {
   font-family: "Abril Fatface", cursive;
   font-size: 3vw;
+
 }
 
 .nav-foot-item > a {
@@ -133,7 +154,20 @@ ul {
   justify-content: flex-end;
 }
 
+.nav-foot-item > a {
+  font-size: 3vw;
+  color: whitesmoke;
+}
+
+.active-nav-foot-item > a {
+  color: whitesmoke;
+}
+.arrow-bottom > a > img {
+  transform: rotate(180deg);
+  width: 15vw;
+}
 @media screen and (max-width: 600px) {
+
   .head {
     min-height: 50vh;
   }
@@ -145,6 +179,7 @@ ul {
   .blurb-img > img {
     width: 75vw;
   }
+
   .blurb-txt {
     font-size: 5vw;
   }
@@ -157,6 +192,7 @@ ul {
   .arrow {
     display: none;
   }
+
   .nav-foot-item > a {
     padding: 1vw;
   }

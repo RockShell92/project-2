@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./css-pages/bootstrap.css" />
   </head>
   <body>
+
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
@@ -91,24 +92,38 @@
         <img src="assets/rose-and-walter.jpeg" />
       </div>
     </div>
+
     <div class="texttwo">
       <p>A photo of Rosemary Jenkins and Walter Jenkins taken in 1991.</p>
     </div>
 
     <div class="d-md-flex d-sm-block">
-      <div class="hbuilding">
-        <img src="assets/home-building.png" />
-      </div>
 
-      <div class="hours">
-        <h1>Dine-In Hours:</h1>
+      <div class="row">
+        <div class="hours col-sm-12 col-md-6">
+          <div class="hbuilding">
+            <img src="assets/home-building.png" />
+          </div>
+        </div>
 
-        <p>M-FRI: 2PM-10PM SAT-SUN: 12PM-11PM</p>
+        <div class="hours col-sm-12 col-md-6 d-block pt-5">
+          <h1>Dine-In Hours:</h1>
+          <div class="hours-time">
+            <p>
+              M-FRI: <br />
+              2PM-10PM
+              <br />
+              SAT-SUN:<br />
+              12PM-11PM
+            </p>
+          </div>
+        </div>
+
       </div>
     </div>
 
     <div class="">
-      <p>A photo of Mitchell's Restaurant Home Building taken in 2001</p>
+
       <div class="contact">
         <h1>Contact Options:</h1>
         <p>Call us: 239.111.554</p>
@@ -118,6 +133,29 @@
     <div class="location">
       <p>Come visit us at 1509 HANGRY AVENUE N NASHVILLE, TN 35278</p>
     </div>
+
+    <div id="arrowtwo">
+      <div class="arrow-bottom d-md-flex justify-content-end d-sm-none">
+        <a href="#headtwo"><img src="./assets/arrow.png" alt="arrow" /></a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container-fluid d-flex">
+        <ul class="mx-auto d-flex">
+          <li class="nav-foot-item px-md-5 px-sm-4">
+            <a class="nav-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-foot-item px-md-5 px-sm-4">
+            <a class="nav-link" href="./about.html">ABOUT</a>
+          </li>
+          <li class="nav-foot-item px-md-5 px-sm-4">
+            <a class="nav-link" href="./menu.html">MENU</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
