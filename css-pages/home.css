@@ -10,6 +10,7 @@ font-family: 'Roboto Condensed', sans-serif; */
   background: url(./../assets/resturant-background.png);
   background-size: 100vw 100%;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .nav-item > a {
@@ -18,7 +19,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   color: #384258e3;
   text-decoration: none;
 }
-
 .nav-item {
   font-family: "Abril Fatface", cursive;
   font-size: 5vw;
@@ -41,7 +41,6 @@ font-family: 'Roboto Condensed', sans-serif; */
 
   font-weight: 700;
 }
-
 .row > .mit-sm {
   font-family: "Abril Fatface", cursive;
   color: #410e00;
@@ -54,7 +53,6 @@ font-family: 'Roboto Condensed', sans-serif; */
   font-weight: 700;
   font-size: 3vw;
 }
-
 .arrow > a > img {
   width: 20vw;
 }
@@ -136,6 +134,10 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
+  .head {
+    min-height: 50vh;
+  }
+
   .blurb {
     flex-direction: column-reverse;
     align-items: flex-start;

@@ -10,6 +10,7 @@ font-family: 'Roboto Condensed', sans-serif; */
   background: url(./../assets/Spicy-brown-sugar-glazed-fried-chicken-strips-7.png);
   background-size: 100vw 100%;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 .nav-item > .nav-link > a {
   font-family: "Abril Fatface", cursive;
@@ -65,7 +66,8 @@ font-family: 'Roboto Condensed', sans-serif; */
 }
 
 .arrow > a > img {
-  padding: 1vw;
+  padding-top: 10vh;
+  width: 20vw;
 }
 #contents1 {
   background-image: url(./../assets/crossword.png);
@@ -131,8 +133,12 @@ ul {
 .arrow-bottom {
   display: flex;
   justify-content: flex-end;
+  background-image: url(./../assets/crossword.png);
 }
 @media screen and (max-width: 600px) {
+  .head {
+    min-height: 50vh;
+  }
   .arrow {
     display: none;
   }
